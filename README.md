@@ -8,17 +8,18 @@ This project involves programming a real robot using ROS Melodic and Python 2 to
 
 1. **SSH into the Robot:**
    Establish a connection with the robot using SSH.
+   Connect to the robot's wifi network.
 
    ```sh
-   ssh username@robot_ip_address
+   ssh jetauto@192.168.145.1
    ```
    
-2. **Transfer Files to the Robot:**
+3. **Transfer Files to the Robot:**
 
   Use the scp command to move the necessary files to the robot's directory.
 
   ```sh
-  scp project3.py username@robot_ip_address:~/jetauto_ws/src/jetauto_example/scripts
+  scp project3.py jetauto@192.168.145.1:~/jetauto_ws/src/jetauto_example/scripts
   ```
 
 3. **Run the ROS Node:**
