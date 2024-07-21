@@ -3,6 +3,7 @@
 ## Introduction
 
 This project involves programming a real robot using ROS Melodic and Python 2 to navigate from point A to point B. The robot will turn 45 degrees counterclockwise and then move forward for 2 meters before stopping.
+
 Main code can be found in **project3.py**.
 
 ## Steps to Run the Project
